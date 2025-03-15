@@ -1,0 +1,117 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: 67a1e320-7c47-4ea9-8df8-e868326bc90b
+  title: Sea ice forecasting using the IceNet library (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: Daily sea ice forecasting (IceNet)
+  abstract: IceNet is a python library that provides the ability to download, process, train and predict from end to end. Users can interact with IceNet either via the python interface or via a set of command-line interfaces (CLI) which provide a high-level interface that covers the above abilities. This project demonstrates the use of the python library API for forecasting sea ice for a reduced dataset to demonstrate the end-to-end capabilities of IceNet, from source data download to forecast generation.
+  authors:
+    - id: jbyrne
+      name: James Byrne
+      orcid: 0000-0003-3731-2377
+      url: https://github.com/JimCircadian
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - bas
+    - id: bnubald
+      name: Bryn Noel Ubald
+      orcid: 0000-0002-0206-7140
+      corresponding: true
+      email: bryald@bas.ac.uk
+      url: https://github.com/bnubald
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - bas
+  reviewers:
+    - id: wji
+      name: Wei Ji
+      orcid: https://orcid.org/0000-0003-2354-1988
+      url: https://github.com/weiji14
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - devseed
+    - id: wgregory
+      name: William Gregory
+      orcid: https://orcid.org/0000-0001-8176-1642
+      url: https://github.com/William-gregory
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - princeton
+  editors:
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      url: https://github.com/acocac
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - turing
+  affiliations:
+    - id: bas
+      name: British Antarctic Survey
+      department: AI Lab
+    - id: devseed
+      name: Development Seed
+    - id: princeton
+      name: Princeton University
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
+  subject: Oceanography
+  keywords:
+    - sea-ice
+    - forecast
+    - cryosphere
+    - antarctic
+    - arctic
+    - ice
+    - machine learning
+    - unet
+    - deep learning
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Standard
+  thumbnail: images/thumbnail.png
+  requirements:
+    - environment.yml
+  doi: 10.5281/zenodo.12613298
+  github: https://github.com/eds-book/435f534c-e49b-43c3-9bd6-3393100bef3f
+  jupyter:
+    binder:
+      repo: eds-book/435f534c-e49b-43c3-9bd6-3393100bef3f
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2024-07-01
+  toc:
+    - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v2.0.0
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme
