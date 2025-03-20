@@ -48,14 +48,14 @@ project:
       affiliations:
         - princeton
   editors:
-    - id: acoca
-      name: Alejandro Coca-Castro
-      orcid: 0000-0002-9264-1539
-      url: https://github.com/acocac
+    - id: annefou
+      name: Anne Fouilloux
+      orcid: 0000-0002-1784-2920
+      url: https://github.com/annefou
       roles:
         - Writing – review & editing
       affiliations:
-        - turing
+        - simula
   affiliations:
     - id: bas
       name: British Antarctic Survey
@@ -64,9 +64,8 @@ project:
       name: Development Seed
     - id: princeton
       name: Princeton University
-    - id: turing
-      name: The Alan Turing Institute
-      department: Environment & Sustainability
+    - id: simula
+      name: Simula Research Laboratory
   subject: Cryosphere
   keywords:
     - sea-ice
