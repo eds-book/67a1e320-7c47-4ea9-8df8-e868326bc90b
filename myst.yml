@@ -48,7 +48,7 @@ project:
       affiliations:
         - princeton
   editors:
-    - id: annefou
+    - id: afouilloux
       name: Anne Fouilloux
       orcid: 0000-0002-1784-2920
       url: https://github.com/annefou
