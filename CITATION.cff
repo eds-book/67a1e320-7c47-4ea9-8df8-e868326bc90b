@@ -35,15 +35,10 @@ identifiers:
   - type: doi
     value: 10.5281/zenodo.12613298
 keywords:
-  - sea-ice
-  - forecast
-  - cryosphere
-  - antarctic
-  - arctic
-  - ice
-  - machine learning
-  - unet
-  - deep learning
+  - Sea-ice
+  - Modelling
+  - Standard
+  - Python
 license: MIT
 license-url: https://opensource.org/license/MIT
 repository: https://github.com/eds-book/67a1e320-7c47-4ea9-8df8-e868326bc90b
