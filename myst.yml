@@ -66,9 +66,9 @@ project:
       name: Princeton University
     - id: simula
       name: Simula Research Laboratory
-  subject: Sea-Ice
+  subject: Cryosphere
   keywords:
-    - Sea-ice
+    - Cryosphere
     - Modelling
     - Standard
     - Python
