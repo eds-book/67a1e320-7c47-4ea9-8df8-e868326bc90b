@@ -32,8 +32,9 @@ contact:
     email: bryald@bas.ac.uk
     website: https://github.com/bnubald
 identifiers:
-  - type: doi
-    value: 10.5281/zenodo.12613298
+  - description: Open review report for this notebook
+    type: url
+    value: https://github.com/eds-book/notebooks-reviews/issues/8
 keywords:
   - Cryosphere
   - Modelling
