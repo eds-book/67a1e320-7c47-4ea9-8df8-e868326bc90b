@@ -11,7 +11,7 @@ project:
     - id: jbyrne
       name: James Byrne
       orcid: 0000-0003-3731-2377
-      url: https://github.com/JimCircadian
+      github: JimCircadian
       roles:
         - Investigation
         - Software
@@ -23,7 +23,7 @@ project:
       orcid: 0000-0002-0206-7140
       corresponding: true
       email: bryald@bas.ac.uk
-      url: https://github.com/bnubald
+      github: bnubald
       roles:
         - Investigation
         - Software
@@ -34,7 +34,7 @@ project:
     - id: wji
       name: Wei Ji
       orcid: https://orcid.org/0000-0003-2354-1988
-      url: https://github.com/weiji14
+      github: weiji14
       roles:
         - Writing – review & editing
       affiliations:
@@ -42,7 +42,7 @@ project:
     - id: wgregory
       name: William Gregory
       orcid: https://orcid.org/0000-0001-8176-1642
-      url: https://github.com/William-gregory
+      github: William-gregory
       roles:
         - Writing – review & editing
       affiliations:
@@ -51,7 +51,7 @@ project:
     - id: afouilloux
       name: Anne Fouilloux
       orcid: 0000-0002-1784-2920
-      url: https://github.com/annefou
+      github: annefou
       roles:
         - Writing – review & editing
       affiliations:
