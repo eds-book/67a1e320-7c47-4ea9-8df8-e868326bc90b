@@ -16,13 +16,11 @@ authors:
     given-names: James
     affiliation: British Antarctic Survey
     orcid: 0000-0003-3731-2377
-    website: https://github.com/JimCircadian
   - family-names: Ubald
     given-names: Bryn Noel
     affiliation: British Antarctic Survey
     orcid: 0000-0002-0206-7140
     email: bryald@bas.ac.uk
-    website: https://github.com/bnubald
 date-released: '2024-07-01'
 contact:
   - family-names: Ubald
@@ -30,7 +28,6 @@ contact:
     affiliation: British Antarctic Survey
     orcid: 0000-0002-0206-7140
     email: bryald@bas.ac.uk
-    website: https://github.com/bnubald
 identifiers:
   - description: Open review report for this notebook
     type: url
@@ -44,4 +41,4 @@ license: MIT
 license-url: https://opensource.org/license/MIT
 repository: https://github.com/eds-book/67a1e320-7c47-4ea9-8df8-e868326bc90b
 type: software
-version: v2.0.0
+version: v2025.05.0
